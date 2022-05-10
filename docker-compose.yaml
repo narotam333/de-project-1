@@ -272,6 +272,8 @@ services:
   awscli:
     image: amazon/aws-cli
     entrypoint: tail -f /dev/null
+    environment:
+      <<: *airflow-common-env
 
 volumes:
   postgres-db-volume:
