@@ -1,7 +1,7 @@
 # de-project-1
 
 Overview:
-Running Apache Airflow (using extended image) on docker, creating & executing first DAG and connecting to AWS S3 bucket
+Apache Airflow set-up on docker with AWS S3
 
 Steps executed:
 - Running Airflow on local using Docker Container
